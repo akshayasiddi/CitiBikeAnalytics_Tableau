@@ -14,3 +14,8 @@ Explore the interactive Tableau dashboard on [Tableau Public](https://public.tab
 - **Peak Hours:** Visual representation of the busiest hours for Citibike usage.
 - **Year-on-Year Comparison:** Analyze changes in Citibike usage between 2019 and 2020.
 
+## Data Source
+The initial stage of the project involved acquiring all the monthly CSV files, covering the period from January 2019 to December 2020, from the [Citi Bike](https://citibikenyc.com/system-data) Data webpage and organizing them in a designated folder named "Data". The data used in this analysis specifically pertains to the Jersey City region.
+
+Subsequently, I established a python program, named "combine_csv.py", to systematically clean and combine all the monthly CSV files into a single CSV file, in preparation for importing into Tableau.
+
